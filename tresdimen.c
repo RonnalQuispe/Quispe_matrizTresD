@@ -10,8 +10,20 @@ int main()
     scanf("%d", &y);
     printf("Tercera dimension:");
     scanf("%d", &z);
-    int arreglo[x][y][z];
+    int tresD[x][y][z];
 
-   
+    // Inicializar todas las matrices en 0
+    for (int i = 0; i < x; i++)
+    {
+        for (int j = 0; j < y; j++)
+        {
+            for (int k = 0; k < z; k++)
+            {
+                tresD[i][j][k] = 0;
+            }
+        }
+    }
+
+    
     return 0;
 }
