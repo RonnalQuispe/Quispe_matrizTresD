@@ -23,7 +23,7 @@ int main()
             }
         }
     }
-    // Inicializar la última matriz en unos
+    // Inicializar la ultima matriz en unos
     for (int j = 0; j < y; j++)
     {
         for (int k = 0; k < z; k++)
@@ -31,6 +31,19 @@ int main()
             tresD[x - 1][j][k] = 1;
         }
     }
-
+    // Imprimir todos los elementos de la matriz 3d
+    printf("Elementos del arreglo tridimensional:\n");
+    for (int i = 0; i < x; i++)
+    {
+        for (int j = 0; j < y; j++)
+        {
+            for (int k = 0; k < z; k++)
+            {
+                printf("%d ", tresD[i][j][k]);
+            }
+            printf("\n");
+        }
+        printf("\n");
+    }
     return 0;
 }
