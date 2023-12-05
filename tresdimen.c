@@ -3,11 +3,11 @@
 int main() {
     int x, y, z;
     printf("Ingrese las dimensiones del arreglo tridimensional:\n");
-    printf("Primera dimension: ");
+    printf("Primera dimension:");
     scanf("%d", &x);
-    printf("Segunda dimension: ");
+    printf("Segunda dimension:");
     scanf("%d", &y);
-    printf("Tercera dimension: ");
+    printf("Tercera dimension:");
     scanf("%d", &z);
 
     
