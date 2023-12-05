@@ -23,7 +23,14 @@ int main()
             }
         }
     }
+    // Inicializar la última matriz en unos
+    for (int j = 0; j < y; j++)
+    {
+        for (int k = 0; k < z; k++)
+        {
+            tresD[x - 1][j][k] = 1;
+        }
+    }
 
-    
     return 0;
 }
